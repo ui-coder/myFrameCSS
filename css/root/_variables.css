@@ -1,0 +1,373 @@
+/*==============================================* 
+ *  CSS Variables - v1.4.6                      *
+ *  (c)June 10.2019, built by @htmlstrap        *
+ *==============================================*/
+
+:root {
+    /* Typography 
+    --------------------------------------------*/
+    /* 
+        Font family 
+    --------------------------------------------*/
+    --font-family-sans-serif: "Segoe UI", Verdana, Helvetica, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    --font-family-serif: Georgia, Times, "Times New Roman", serif;
+    --font-family-monospace: Monaco, Menlo, Consolas, "Courier New", monospace;
+    --font-family-base: var(--font-family-sans-serif);
+    /* 
+        Font weight
+    --------------------------------------------*/
+    --base-font-weight: 300;
+    /*
+        Font size
+    --------------------------------------------*/
+    --font-size-base: 14px;
+    --font: 1.2em/1.5em;
+    --font-size-large: calc(var(--font-size-base) * 1.25);
+    /* ~18px */
+    --font-size-medium: calc(var(--font-size-base) * 1.14);
+    /* ~16px */
+    --font-size-small: calc(var(--font-size-base) * 0.85);
+    /* ~12px */
+    --font-size-mini: calc(var(--font-size-base) * 0.75);
+    /* ~11px */
+    /* 
+        Enable the option to customize headings 
+    --------------------------------------------*/
+    --headings-font-family: inherit;
+    /* Text color base */
+    --text-color-base: #333;
+    /* Font family shortened */
+    --sans-serif: var(--font-family-base);
+    --serif: var(--font-family-serif);
+    --monospace: var(--font-family-monospace);
+    /* Font size shortened */
+    --font-lg: var(--font-size-large);
+    --font-md: var(--font-size-medium);
+    --font-sm: var(--font-size-small);
+    --font-mn: var(--font-size-mini);
+    /*
+        Base size and font 
+    --------------------------------------------*/
+    --base-font: var(--font) var(--sans-serif);
+    /* 
+        Backround Color 
+    --------------------------------------------*/
+    --default: #C7C7C7;
+    --primary: #12438A;
+    /* #0f4574; */
+    --success: #40A659;
+    --info: #65AAF6;
+    --warning: #EAC85C;
+    --danger: #9C311A;
+    --invert: #222222;
+    /* Border Color */
+    --bdr-default: solid #686868;
+    --bdr-primary: solid #003162;
+    --bdr-success: solid #0B7124;
+    --bdr-info: solid #044995;
+    --bdr-warning: solid #735100;
+    --bdr-danger: solid #780D00;
+    /* Text Color */
+    --txt-default: #686868;
+    --txt-primary: #003162;
+    --txt-success: #0B7124;
+    --txt-info: #044995;
+    --txt-warning: #735100;
+    --txt-danger: #780D00;
+    --txt-invert: #ffffff;
+    --txt-muted: #a8a8a8;
+    /* Alerts & Panels */
+    --lrt-default: #eeeeee;
+    --lrt-primary: #C2EBFF;
+    --lrt-success: #E2FDDC;
+    --lrt-info: #EEF6F6;
+    --lrt-warning: #FFFFE4;
+    --lrt-danger: #FEF2DA;
+    /* Buttons */
+    --btn-default: linear-gradient(#eeeeee, #888888);
+    --btn-primary: linear-gradient(#5780C1, #244D8E);
+    --btn-success: linear-gradient(#74BE6B, #558B4F);
+    --btn-info: linear-gradient(#9CEDFF, #7FCDEF);
+    --btn-warning: linear-gradient(#F3BA34, #d39925);
+    --btn-danger: linear-gradient(#D75F44, #BA4227);
+    /* On :hover colors */
+    --hvr-default: linear-gradient(#888888, #eeeeee);
+    --hvr-primary: linear-gradient(#003162, #044995);
+    --hvr-success: linear-gradient(#558B4F, #74BE6B);
+    --hvr-info: linear-gradient( #7FCDEF, #9CEDFF);
+    --hvr-warning: linear-gradient(#d39925, #F3BA34);
+    --hvr-danger: linear-gradient(#BA4227, #D75F44);
+    /* More Colors */
+    --light-blue: #afd2f0;
+    --dark-blue: #0f4574;
+    --bright-red: #fa0606;
+    --teal-green: #095;
+    --purple: #6f42c1;
+    --rebecca: #623193;
+    --post-bg: #fffbd8;
+    --link-color: #3674bb;
+    /* #d55 */
+    /* 
+        BS Colors 
+    ---------------------*/
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --brand-dark: #563D7C;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --gray-light: #999999;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --white: #fff;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --muted: #92999f;
+    --link: #3674bb;
+    /*--------------------*/
+    --color: var(--color);
+    /* same as : initial; */
+    --brand-color: var(--color);
+    --html: #e44d26;
+    --strap: #2062af;
+    /* black alpha-scale */
+    --black-a10: #0001;
+    --black-a20: #0003;
+    --black-a30: #0005;
+    --black-a40: #0007;
+    --black-a50: #0009;
+    /* hex-rgba */
+    --black-a60: #000a;
+    --black-a70: #000b;
+    --black-a80: #000c;
+    --black-a90: #000d;
+    --black-a100: #000e;
+    /* Gray colors 
+    -------------------*/
+    --gray-darker: #000e;
+    --gray-dark: #000b;
+    --gray: #0009;
+    --gray-light: #0006;
+    --gray-lighter: #0003;
+    /* 
+        Media queries viewport 
+    --------------------------------------------*/
+    /* Extra small devices (portrait phones, 360px and up)*/
+    --xs: 360px;
+    /* Small devices (landscape phones, 576px and up)*/
+    --sm: 576px;
+    /* Medium devices (tablets, 768px and up)*/
+    --md: 768px;
+    /* Large devices (desktops, 992px and up)*/
+    --lg: 992px;
+    /* Extra large devices (large desktops, 1200px and up)*/
+    --xl: 1200px;
+    /* container-max-width 
+    --------------------------*/
+    --sm-device: 540px;
+    --md-device: 720px;
+    --lg-device: 960px;
+    --xl-device: 1140px;
+    /* screen 
+    --------------------------*/
+    --xs-screen: 500px;
+    --sm-screen: 768px;
+    --md-screen: 992px;
+    --lg-screen: 1200px;
+    /* more variable options 
+    --------------------------*/
+    --phone: 576px;
+    --tablet: 768px;
+    --desktop: 992px;
+    --xlarge: 1200px;
+    /*------------------------------------------- 
+        custom-media-queries 
+    --------------------------------------------*/
+    @custom-media --phone (width >=576px);
+    @custom-media --tablet (width >=768px);
+    @custom-media --desktop (width >=992px);
+    @custom-media --xlarge (width >=1200px);
+    /* 
+        Other Measures and Units 
+    --------------------------------------------*/
+    --gap: 15px;
+    /* same as gutter */
+    --inner: 20px;
+    /* padding */
+    --outer: 15px;
+    /* margin */
+    /*
+        display vals
+    ---------------------*/
+    --contns: contents;
+    --d-blk: block;
+    --in-blk: inline-block;
+    --inlin: inline;
+    --d-flx: flex;
+    --in-flx: inline-flex;
+    --li-item: list-item;
+    --d-tbl: table;
+    --in-tbl: inline-table;
+    --tcell: table-cell;
+    --trow: table-row;
+    --tcap: table-caption;
+    --trow-grp: table-row-group;
+    --tcol: table-column;
+    --tcol-grp: table-column-group;
+    --theadr-grp: table-header-group;
+    --tfootr-grp: table-footer-group;
+    --froot: flow-root;
+    --d-grd: grid;
+    --sbgrd: subgrid;
+    --run: run-in;
+    /* 
+        more vals 
+    ---------------------*/
+    --yep: auto;
+    --no: none;
+    --val: var(--val);
+    /* same as : initial; */
+    --arg: var(--arg);
+    /* same as : initial; */
+    --argX: var(--arg);
+    --argY: var(--arg);
+    --align: var(--alugn);
+    /* same as : initial; */
+    --alignX: var(--align);
+    --alignY: var(--align);
+    /* Base Size */
+    --device-width: 100vw;
+    --full-width: 100%;
+    --wide: calc(- var(--val)) !important;
+    --size: 20px;
+    --sizeX: var(--size);
+    --sizeY: var(--size);
+    --radius: 5px;
+    --radi-all: var(--radius);
+    --radi-left: 5px 0 0 5px;
+    --radi-right: var(--bdr-radius);
+    --bdr-radius: 0 5px 5px 0;
+    --callout: var(--bdr-radius);
+    /* for callouts */
+    /* styling variables */
+    --style: solid #666;
+    /* Action */
+    --moveX: var(--arg);
+    --moveY: var(--arg);
+    /* Position */
+    --relt: relative;
+    --absl: absolute;
+    --stky: sticky;
+    --fxd: fixed;
+    /* z-index */
+    --z-dropdown: 1000 !default;
+    --z-sticky: 1020 !default;
+    --z-fixed: 1030 !default;
+    --z-modal-backdrop: 1040 !default;
+    --z-modal: 1050 !default;
+    --z-popover: 1060 !default;
+    --z-tooltip: 1070 !default;
+    /* 
+        Background image (Parallax)
+    --------------------------------------------*/
+    --position: center center/cover no-repeat;
+    --img: var(--position);
+    --parallax: center center/cover no-repeat fixed;
+    /*    --img-path: url('../../images/img.jpg'); */
+    /* e.g. */
+    /*
+        FlexBox for Parent Element
+    ============================================*/
+    /* flex-direction 
+    --------------------------------------------*/
+    --flex-row: row;
+    /* default */
+    --row-rev: row-reverse;
+    --flex-col: column;
+    --col-rev: column-reverse;
+    /* flex-wrap 
+    --------------------------------------------*/
+    --nowrap: nowrap;
+    /* default */
+    --flex-wrap: wrap;
+    --wrap-rev: wrap-reverse;
+    /* flex-flow in row
+    --------------------------------------------*/
+    --flex-row: row;
+    --row-wrap: row wrap;
+    --row-nowrap: row nowrap;
+    --row-wrap-rev: row wrap-reverse;
+    --row-rev-wrap: row-reverse wrap;
+    --row-rev-nowrap: row-reverse nowrap;
+    --row-rev-wrap-rev: row-reverse wrap-reverse;
+    /* flex-flow in col
+    --------------------------------------------*/
+    --flex-col: column;
+    --col-wrap: column wrap;
+    --col-nowrap: column nowrap;
+    --col-wrap-rev: column wrap-reverse;
+    --col-rev-wrap: column-reverse wrap;
+    --col-rev-nowrap: column-reverse nowrap;
+    --col-rev-wrap-rev: column-reverse wrap-reverse;
+    /* justify-content - X
+    --------------------------------------------*/
+    --left: var(--start);
+    /* default */
+    --right: var(--end);
+    --centr: center;
+    --between: space-between;
+    --around: space-around;
+    --evenly: space-evenly;
+    /* align-item
+    --------------------------------------------*/
+    --expand: stretch;
+    /* default */
+    --top: var(--start);
+    --bottom: var(--end);
+    --center: center;
+    --base: baseline;
+    /* align-content - Y
+    --------------------------------------------*/
+    --expand: stretch;
+    /* default */
+    --start: flex-start;
+    --end: flex-end;
+    --centr: center;
+    --between: space-between;
+    --around: space-around;
+    /*
+       FlexBox for Child Element 
+    ============================================*/
+    /* 
+        flex-grow
+    --------------------------------------------*/
+    --grow: 1;
+    /* by default */
+    /* 
+        flex-shrink
+    --------------------------------------------*/
+    --shrink: 0;
+    /* by default */
+    /* 
+        flex-basis 
+    --------------------------------------------*/
+    --basis: auto;
+    --main: main-size;
+    /* 
+        align-self (Both)
+    --------------------------------------------*/
+    /* property: auto - default */
+    --expand: stretch;
+    --start: flex-start;
+    --end: flex-end;
+    --centr: center;
+    --base: baseline;
+    /*
+        More Variables
+    ============================================*/
+    --wk-box: padding-box;
+}

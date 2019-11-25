@@ -1,0 +1,29 @@
+/*  @Media Queries
+======================================
+    Device Screen Orientation
+------------------------------------*/
+
+
+/* < 600px */
+
+@media only screen and (max-width: 600px),
+(min-device-width: 0px) and (max-device-width: 600px) {
+    /*
+      Write your code here
+    */
+    body {
+        background: var(--success);
+    }
+}
+
+/* 601px-1024px */
+
+@media only screen and (max-width: 1024px),
+(min-device-width: 600px) and (max-device-width: 1024px) {
+    /*
+      Write your code here
+    */
+    body {
+        background: var(--warning);
+    }
+}
