@@ -1,0 +1,368 @@
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --muted: #92999f;
+    --link: #3674bb;
+}
+
+/*
+    Backgrounds
+------------------------------------*/
+
+.bg-primary {
+    background-color: var(--primary);
+}
+
+.bg-secondary {
+    background-color: var(--secondary);
+}
+
+.bg-success {
+    background-color: var(--success);
+}
+
+.bg-info {
+    background-color: var(--info);
+}
+
+.bg-warning {
+    background-color: var(--warning);
+}
+
+.bg-danger {
+    background-color: var(--danger);
+}
+
+/*
+    Stripes 
+===============================*/
+
+[class*="stripe-"] {
+    cursor: default;
+}
+
+.stripe-primary {
+    background: var(--lrt-primary);
+    border-top: var(--bdr-primary);
+    border-bottom: var(--bdr-primary);
+}
+
+.stripe-primary:hover {
+    background: var(--hvr-primary);
+    border-top: var(--bdr-primary);
+}
+
+.stripe-secondary {
+    background: var(--lrt-secondary);
+    border-top: var(--bdr-secondary);
+    border-bottom: var(--bdr-secondary);
+}
+
+.stripe-secondary:hover {
+    background: var(--hvr-secondary);
+}
+
+.stripe-success {
+    background: var(--lrt-success);
+    border-top: var(--bdr-success);
+    border-bottom: var(--bdr-success);
+}
+
+.stripe-success:hover {
+    background: var(--hvr-success);
+}
+
+.stripe-info {
+    background: var(--lrt-info);
+    border-top: var(--bdr-info);
+    border-bottom: var(--bdr-info);
+}
+
+.stripe-info:hover {
+    background: var(--hvr-info);
+}
+
+.stripe-warning {
+    background: var(--lrt-warning);
+    border-top: var(--bdr-warning);
+    border-bottom: var(--bdr-warning);
+}
+
+.stripe-warning:hover {
+    background: var(--hvr-warning);
+}
+
+.stripe-danger {
+    background: var(--lrt-danger);
+    border-top: var(--bdr-danger);
+    border-bottom: var(--bdr-danger);
+}
+
+.stripe-danger:hover {
+    background: var(--hvr-danger);
+}
+
+.stripe-default {
+    background: var(--lrt-default);
+    border-top: var(--bdr-default);
+    border-bottom: var(--bdr-default);
+}
+
+.stripe-default:hover {
+    background: var(--hvr-default);
+}
+
+/*
+    Text
+------------------------------------*/
+
+.text-primary {
+    color: var(--txt-primary);
+}
+
+.text-secondary {
+    color: var(--txt-secondary);
+}
+
+.text-success {
+    color: var(--txt-success);
+}
+
+.text-info {
+    color: var(--txt-info);
+}
+
+.text-warning {
+    color: var(--txt-warning);
+}
+
+.text-danger {
+    color: var(--txt-danger);
+}
+
+/* 
+    Alerts 
+-----------------------------------*/
+
+[class*="alert-"] {
+    display: var(--d-blk);
+    margin: 15px auto 20px;
+    padding: 8px 35px 8px 14px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  background-color: #fcf8e3;
+  border: 1px solid #fbeed5;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+}
+
+.alert .close {
+    position: relative;
+    top: -2px;
+    right: -21px;
+    line-height: 20px;
+}
+
+button.close {
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    -webkit-appearance: none;
+}
+.close {
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #000000;
+    text-shadow: 0 1px 0 #ffffff;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+.alert-primary {
+    background: var(--txt-primary);
+    border-color: var(--bdr-primary);
+    color: var(--lrt-primary);
+}
+
+.alert-success {
+    background: var(--lrt-success);
+    border-color: var(--bdr-success);
+    color: var(--txt-success);
+}
+
+.alert-info {
+    background: var(--lrt-info);
+    border-color: var(--bdr-info);
+    color: var(--txt-info);
+}
+
+.alert-warning {
+    background: var(--lrt-warning);
+    border-color: var(--bdr-warning);
+    color: var(--txt-warning);
+}
+
+.alert-danger {
+    background: var(--lrt-danger);
+    border-color: var(--bdr-danger);
+    color: var(--txt-danger);
+}
+
+/* 
+    Callouts 
+-------------------------------------------*/
+
+[class*="callout-"] {
+    border: 1px solid;
+    border-radius: var(--callout);
+    margin: 15px auto;
+    padding: 0 20px;
+}
+
+.callout-primary {
+    border-color: var(--bdr-primary);
+    border-left: 15px var(--bdr-primary);
+    color: var(--txt-primary);
+}
+
+.callout-success {
+    border-color: var(--bdr-success);
+    border: 5px solid var(--bdr-success);
+    color: var(--txt-success);
+}
+
+.callout-info {
+    border-left: 15px var(--bdr-info);
+    color: var(--txt-info);
+}
+
+.callout-warning {
+    border-left: 15px var(--bdr-warning);
+    color: var(--txt-warning);
+}
+
+.callout-danger {
+    border-left: 15px var(--bdr-danger);
+    color: var(--txt-danger);
+}
+
+.border-collapse {
+    border-collapse: collapse;
+}
+
+/*
+    Table
+-------------------------------------------*/
+.table {
+    border: var(--bdr-secondary);
+
+    display: var(--d-tbl);
+    text-align: center;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.tcap {
+    display: var(--tcap);
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.thead {
+    display: var(--theadr-grp);
+    font-weight: 400 !important;
+    font-size: 18px;
+}
+
+.hcell {
+    display: var(--tcell);
+    padding: 0 10px;
+    text-align: center;
+}
+
+.tbody {
+    display: var(--trow-grp);
+}
+
+.trow {
+    display: var(--trow);
+    padding: 10px;
+    text-align: center;
+}
+
+.bcell {
+    display: var(--trow-grp);
+    text-align: center;
+}
+
+.tfoot {
+    display: var(--tfootr-grp);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.fcell {
+    display: var(--tcell);
+    padding: 10px;
+    text-align: center;
+}
+
+.nobdr {
+    border: none !important;
+}
+
+/* 
+    tRow Color 
+==========================================*/
+
+.trow-primary {
+    background: var(--primary);
+    color: var(--txt-invert);
+}
+
+.trow-secondary {
+    background: var(--secondary);
+}
+
+.trow-success {
+    background: var(--success);
+    color: var(--txt-invert);
+}
+
+.trow-info {
+    background: var(--info);
+    color: var(--txt-invert);
+}
+
+.trow-warning {
+    background: var(--warning);
+    color: var(--txt-invert);
+}
+
+.trow-danger {
+    background: var(--danger);
+    color: var(--txt-invert);
+}

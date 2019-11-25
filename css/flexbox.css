@@ -1,0 +1,205 @@
+@import url(root/_variables.css);
+
+/*
+*==========================================* 
+*  CSS Flexbox Classes - v1.1              *
+*   (c)June 10.2019, built by @htmlstrap   *
+*==========================================*/
+
+
+/*  For Parent Element
+=======================================
+    flex-direction 
+-------------------------------------*/
+
+.row {
+    flex-direction: var(--flex-row);
+    /* default */
+}
+
+.row-rev {
+    flex-direction: var(--row-rev);
+}
+
+.col {
+    flex-direction: var(--flex-col);
+}
+
+.col-rev {
+    flex-direction: var(--col-rev);
+}
+
+/* flex-wrap 
+-------------------------------------*/
+
+.nowrap {
+    flex-wrap: var(--nowrap);
+    /* default */
+}
+
+.flex-wrap {
+    flex-wrap: var(--flex-wrap);
+}
+
+.wrap-rev {
+    flex-wrap: var(--wrap-rev);
+}
+
+/* flex-flow in row
+-------------------------------------*/
+
+.row-wrap {
+    flex-flow: var(--row-wrap);
+}
+
+.row-nowrap {
+    flex-flow: var(--row-nowrap);
+}
+
+.row-wrap-rev {
+    flex-flow: var(--row-wrap-rev);
+}
+
+.row-rev-wrap {
+    flex-flow: var(--row-rev-wrap);
+}
+
+.row-rev-nowrap {
+    flex-flow: var(--row-rev-nowrap);
+}
+
+.row-rev-wrap-rev {
+    flex-flow: var(--row-rev-wrap-rev);
+}
+
+/* flex-flow in col
+-------------------------------------*/
+
+.col-wrap {
+    flex-flow: var(--col-wrap);
+}
+
+.col-nowrap {
+    flex-flow: var(--col-nowrap);
+}
+
+.col-wrap-rev {
+    flex-flow: var(--col-wrap-rev);
+}
+
+.col-rev-wrap {
+    flex-flow: var(--col-rev-wrap);
+}
+
+.col-rev-nowrap {
+    flex-flow: var(--col-rev-nowrap);
+}
+
+.col-rev-wrap-rev {
+    flex-flow: var(--col-rev-wrap-rev);
+}
+
+/*
+justify-content - X (axis) 
+-------------------------------------*/
+
+.justify-start {
+    justify-content: var(--left);
+}
+
+.justify-center {
+    justify-content: var(--center);
+}
+
+.justify-end {
+    justify-content: var(--right);
+}
+
+.justify-between {
+    justify-content: var(--between);
+}
+
+.justify-around {
+    justify-content: var(--around);
+}
+
+.justify-evenly {
+    justify-content: var(--evenly);
+}
+
+/*
+    align-items
+-------------------------------------*/
+
+.item-expand {
+    align-items: var(--expand);
+}
+
+.item-top {
+    align-items: var(--top);
+}
+
+.item-bottom {
+    align-items: var(--bottom);
+}
+
+.item-center {
+    align-items: var(--center);
+}
+
+.item-base {
+    align-items: var(--base);
+}
+
+/*
+    align-content - Y (axis)
+-------------------------------------*/
+
+.align-expand {
+    align-content: var(--expand);
+}
+
+.align-start {
+    align-content: var(--start);
+}
+
+.align-end {
+    align-content: var(--end);
+}
+
+.align-center {
+    align-content: var(--center);
+}
+
+.align-between {
+    align-content: var(--between);
+}
+
+.align-around {
+    align-content: var(--around);
+}
+
+/*    FlexBox for Child Element
+=======================================
+    align-self
+--------------------------------------*/
+
+.self-expand {
+    align-self: var(--expand);
+}
+
+.self-start {
+    align-self: var(--start);
+}
+
+.self-end {
+    align-self: var(--end);
+}
+
+.self-center {
+    align-self: var(--center);
+}
+
+.self-base {
+    align-self: var(--base);
+}

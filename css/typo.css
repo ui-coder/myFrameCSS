@@ -1,0 +1,153 @@
+:root {
+    /* Typography 
+    --------------------------------------------*/
+    /* 
+        Font family 
+    --------------------------------------------*/
+    --font-family-sans-serif: "Segoe UI", Verdana, Helvetica, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    --font-family-serif: Georgia, Times, "Times New Roman", serif;
+    --font-family-monospace: Monaco, Menlo, Consolas, "Courier New", monospace;
+    --font-family-base: var(--font-family-sans-serif);
+    /* 
+        Font weight
+    --------------------------------------------*/
+    --base-font-weight: 300;
+    /*
+        Font size
+    --------------------------------------------*/
+    --font-size-base: 14px;
+    --font: 1.2em/1.5em;
+    --font-size-large: calc(var(--font-size-base) * 1.25);
+    /* ~18px */
+    --font-size-medium: calc(var(--font-size-base) * 1.14);
+    /* ~16px */
+    --font-size-small: calc(var(--font-size-base) * 0.85);
+    /* ~12px */
+    --font-size-mini: calc(var(--font-size-base) * 0.75);
+    /* ~11px */
+    /* 
+        Enable the option to customize headings 
+    --------------------------------------------*/
+    --headings-font-family: inherit;
+    /* Text color base */
+    --text-color-base: #333;
+    /* Font family shortened */
+    --sans-serif: var(--font-family-base);
+    --serif: var(--font-family-serif);
+    --monospace: var(--font-family-monospace);
+    /* Font size shortened */
+    --font-lg: var(--font-size-large);
+    --font-md: var(--font-size-medium);
+    --font-sm: var(--font-size-small);
+    --font-mn: var(--font-size-mini);
+    /*
+        Base size and font 
+    --------------------------------------------*/
+    --base-font: var(--font) var(--sans-serif);
+}
+
+/*
+    Text alignment
+--------------------------*/
+
+.txt-left {
+    text-align: left;
+}
+
+.txt-right {
+    text-align: right;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.txt-justify {
+    text-align: justify;
+}
+
+.txt-all {
+    text-align: justify-all;
+}
+
+.txt-match {
+    text-align: match-parent;
+}
+
+.txt-start {
+    text-align: start;
+}
+
+.txt-end {
+    text-align: end;
+}
+
+/*
+    Display props
+---------------------------*/
+.d-block {
+    display: var(--blk);
+}
+
+.inline-block {
+    display: var(-in-blk);
+}
+
+.d-inline {
+    display: var(--inlin);
+}
+
+/*
+    Floats
+----------------------------*/
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+/*
+    Margins & Paddings
+----------------------------*/
+.m-top {
+    margin-top: var(--gap);
+}
+
+.m-right {
+    margin-right: var(--gap);
+}
+
+.m-bottom {
+    margin-bottom: var(--gap);
+}
+
+.m-left {
+    margin-left: var(--gap);
+}
+
+.wide {
+    --wide: -20px;
+    margin: 0 var(--wide);
+}
+
+.center {
+    margin: 0 var(--yep);
+}
+
+.inner {
+    padding: var(--inner) 0;
+}
+
+/*
+    List props 
+----------------------------*/
+.no-list {
+    list-style-type: none;
+}
+
+
+.no-txt-decoration {
+    text-decoration: none;
+}
