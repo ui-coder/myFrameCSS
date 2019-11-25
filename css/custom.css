@@ -2,7 +2,7 @@
 @import url(colors.css);
 @import url(flexbox.css);
 @import url(typo.css);
-@import url(media-q.css);
+/*@import url(media-q.css);*/ /* media-q.css - temporarily disabled */
 
 /*===============================
         Current Code
