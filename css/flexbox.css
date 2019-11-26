@@ -1,11 +1,9 @@
-@import url(root/_variables.css);
-
 /*
 *==========================================* 
 *  CSS Flexbox Classes - v1.1              *
 *   (c)June 10.2019, built by @htmlstrap   *
 *==========================================*/
-
+@import url(root/_variables.css);
 
 /*  For Parent Element
 =======================================
