@@ -1,3 +1,8 @@
+/*
+*==========================================* 
+*   CSS Colores - v1.1                     *
+*   (c)June 10.2019, built by @htmlstrap   *
+*==========================================*/
 :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -168,12 +173,12 @@
     margin: 15px auto 20px;
     padding: 8px 35px 8px 14px;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-  background-color: #fcf8e3;
-  border: 1px solid #fbeed5;
-  -webkit-border-radius: 5px;
-     -moz-border-radius: 5px;
-          border-radius: 5px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    background-color: #fcf8e3;
+    border: 1px solid #fbeed5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
 
 .alert .close {
@@ -190,6 +195,7 @@ button.close {
     border: 0;
     -webkit-appearance: none;
 }
+
 .close {
     float: right;
     font-size: 20px;
@@ -200,6 +206,7 @@ button.close {
     opacity: 0.2;
     filter: alpha(opacity=20);
 }
+
 .alert-primary {
     background: var(--txt-primary);
     border-color: var(--bdr-primary);
