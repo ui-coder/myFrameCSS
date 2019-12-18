@@ -1,2 +1,2 @@
 # myFrameCSS
-Mini CSS Framework (Under constructiom)
+Mini CSS Framework (Under construction)
