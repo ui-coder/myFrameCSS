@@ -259,10 +259,10 @@
     --moveX: var(--arg);
     --moveY: var(--arg);
     /* Position */
-    --relt: relative;
     --absl: absolute;
-    --stky: sticky;
     --fxd: fixed;
+    --relt: relative;
+    --stky: sticky;
     /* z-index */
     --z-dropdown: 1000 !default;
     --z-sticky: 1020 !default;
