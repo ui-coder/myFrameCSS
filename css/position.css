@@ -1,0 +1,216 @@
+/*
+*==========================================* 
+*   CSS Position - v1.1                    *
+*   (c)Dec 20.2019, built by @htmlstrap    *
+*==========================================*/
+.flex {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.row {
+    flex-direction: var(--flex-row);
+}
+
+.col {
+    flex-direction: var(--flex-col);
+}
+
+[class*="col-"] {
+    flex-direction: var(--flex-col);
+    padding: var(--inner);
+}
+
+.col-1 {
+    flex: 1;
+    width: calc((1/12) * 100%);
+}
+
+.col-2 {
+    flex: 2;
+    width: calc((2/12) * 100%);
+}
+
+.col-3 {
+    flex: 3;
+    width: calc((3/12) * 100%);
+}
+
+.col-4 {
+    flex: 4;
+    width: calc((4/12) * 100%);
+}
+
+.col-5 {
+    flex: 5;
+    width: calc((5/12) * 100%);
+}
+
+.col-6 {
+    flex: 6;
+    width: calc((6/12) * 100%);
+}
+
+.col-7 {
+    flex: 7;
+    width: calc((7/12) * 100%);
+}
+
+.col-8 {
+    flex: 8;
+    width: calc((8/12) * 100%);
+}
+
+.col-9 {
+    flex: 9;
+    width: calc((9/12) * 100%);
+}
+
+.col-10 {
+    flex: 10;
+    width: calc((10/12) * 100%);
+}
+
+.col-11 {
+    flex: 11;
+    width: calc((11/12) * 100%);
+}
+
+.col-12 {
+    flex: 12;
+    width: calc((12/12) * 100%);
+}
+
+/*
+    Positioning
+-------------------------------*/
+.absolute {
+    position: var(--absl);
+}
+
+.fixed {
+    position: var(--fxd);
+}
+
+.relative {
+    position: var(--relt);
+}
+
+.sticky {
+    position: var(--stky);
+}
+
+.top {
+    top: 0;
+    left: 50%;
+    right: 50%;
+}
+.top-left {
+    top: 0;
+    left: 0;
+    right: 100%;
+}
+.top-right {
+    top: 0;
+    left: 100%;
+    right: 0;
+}
+.left {
+    top: 50%;
+    left: 0;
+    right: 100%;
+}
+.right {
+    top: 50%;
+    left: 100%;
+    right: 0;
+}
+.bottom {
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+}
+.bottom-left {
+    left: 0;
+    right: 100%;
+    bottom: 0;
+}
+.bottom-right {
+    left: 100%;
+    right: 0;
+    bottom: 0;
+}
+
+.txt-right {
+    text-align: right !important;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.txt-justify {
+    text-align: justify;
+}
+
+.txt-mn {
+    font-size: 10px;
+}
+
+.txt-sm {
+    font-size: 12px;
+}
+
+.txt-md {
+    font-size: 14px;
+}
+
+.txt-lg {
+    font-size: 16px;
+}
+.txt-xl {
+    font-size: 18px;
+}
+
+.fw-bold {
+    font-weight: 600;
+}
+
+.push-zero {
+    margin-left: var(--moveX, 0) !important;
+}
+
+.push-right-10 {
+    margin-left: var(--moveX, 10px);
+}
+
+.push-right-20 {
+    margin-left: var(--moveX, 20px);
+}
+
+.push-right-30 {
+    margin-left: var(--moveX, 30px);
+}
+
+.push-right-40 {
+    margin-left: var(--moveX, 40px);
+}
+
+.pull-left-10 {
+    margin-left: var(--moveX, -10px);
+}
+
+.pull-left-20 {
+    margin-left: var(--moveX, -20px);
+}
+
+.pull-left-30 {
+    margin-left: var(--moveX, -30px);
+}
+
+.pull-left-40 {
+    margin-left: var(--moveX, -40px);
+}
