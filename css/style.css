@@ -1,8 +1,4 @@
-@import url(root/_variables.css);
-@import url(colors.css);
-@import url(flexbox.css);
-@import url(typo.css);
-@import url(position.css);
+@import url(custom.css);
 /*@import url(media-q.css);*/ /* media-q.css - temporarily disabled */
 
 /*===============================
