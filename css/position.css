@@ -108,36 +108,43 @@
     left: 50%;
     right: 50%;
 }
+
 .top-left {
     top: 0;
     left: 0;
     right: 100%;
 }
+
 .top-right {
     top: 0;
     left: 100%;
     right: 0;
 }
+
 .left {
     top: 50%;
     left: 0;
     right: 100%;
 }
+
 .right {
     top: 50%;
     left: 100%;
     right: 0;
 }
+
 .bottom {
     left: 50%;
     right: 50%;
     bottom: 0;
 }
+
 .bottom-left {
     left: 0;
     right: 100%;
     bottom: 0;
 }
+
 .bottom-right {
     left: 100%;
     right: 0;
@@ -171,6 +178,7 @@
 .txt-lg {
     font-size: 16px;
 }
+
 .txt-xl {
     font-size: 18px;
 }
@@ -199,6 +207,10 @@
     margin-left: var(--moveX, 40px);
 }
 
+.push-right-50 {
+    margin-left: var(--moveX, 50px);
+}
+
 .pull-left-10 {
     margin-left: var(--moveX, -10px);
 }
@@ -213,4 +225,8 @@
 
 .pull-left-40 {
     margin-left: var(--moveX, -40px);
+}
+
+.pull-left-50 {
+    margin-left: var(--moveX, -50px);
 }
