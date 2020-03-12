@@ -140,27 +140,27 @@
     Text
 ------------------------------------*/
 
-.text-primary {
+.txt-primary {
     color: var(--txt-primary);
 }
 
-.text-secondary {
+.txt-secondary {
     color: var(--txt-secondary);
 }
 
-.text-success {
+.txt-success {
     color: var(--txt-success);
 }
 
-.text-info {
+.txt-info {
     color: var(--txt-info);
 }
 
-.text-warning {
+.txt-warning {
     color: var(--txt-warning);
 }
 
-.text-danger {
+.txt-danger {
     color: var(--txt-danger);
 }
 
