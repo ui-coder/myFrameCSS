@@ -57,6 +57,155 @@
     background-color: var(--danger);
 }
 
+/*    
+    Shades of Black
+===============================*/
+.black1 {
+    background: var(--black-a10);
+}
+
+.black2 {
+    background: var(--black-a20);
+}
+
+.black3 {
+    background: var(--black-a30);
+}
+
+.black4 {
+    background: var(--black-a40);
+}
+
+.black5 {
+    background: var(--black-a50);
+}
+
+.black6 {
+    background: var(--black-a60);
+}
+
+.black7 {
+    background: var(--black-a70);
+}
+
+.black8 {
+    background: var(--black-a80);
+}
+
+.black9 {
+    background: var(--black-a90);
+}
+
+.black10 {
+    background: var(--black-a10);
+}
+
+/*
+    Shades of Gray
+===============================*/
+.dark-gray {
+    background: var(--gray-darker);
+}
+
+.dim-gray {
+    background: var(--gray-dark);
+}
+
+.gray {
+    background: var(--gray);
+}
+
+.lite-gray {
+    background: var(--gray-light);
+}
+
+.wan-gray {
+    background: var(--gray-lighter);
+}
+
+/*
+    Borders
+------------------------------------------*/
+[class*="bdr-"],
+[class*="no-bdr-"] {
+    width: 100px;
+    height: 100px;
+    margin: var(--outer);
+    padding: var(--inner);
+}
+
+.bdr-all {
+    border: 2px solid;
+}
+
+.bdr-top {
+    border-top: 2px solid;
+}
+
+.bdr-right {
+    border-right: 2px solid;
+}
+
+.bdr-bottom {
+    border-bottom: 2px solid;
+}
+
+.bdr-left {
+    border-left: 2px solid;
+}
+
+.no-bdr-all {
+    border: 0;
+}
+
+.no-bdr-top {
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+}
+
+.no-bdr-right {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+}
+
+.no-bdr-bottom {
+    border-top: 2px solid;
+    border-right: 2px solid;
+    border-left: 2px solid;
+}
+
+.no-bdr-left {
+    border-top: 2px solid;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+}
+
+.bdr-primary {
+    border-color: var(--primary);
+}
+
+.bdr-secondary {
+    border-color: var(--default);
+}
+
+.bdr-success {
+    border-color: var(--success);
+}
+
+.bdr-info {
+    border-color: var(--info);
+}
+
+.bdr-warning {
+    border-color: var(--warning);
+}
+
+.bdr-danger {
+    border-color: var(--danger);
+}
+
 /*
     Stripes 
 ===============================*/
