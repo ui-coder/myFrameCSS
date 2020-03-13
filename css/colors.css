@@ -183,7 +183,7 @@
 }
 
 .bdr-primary {
-    border: 1px var(--bdr-primary);
+    border: var(--bdr-primary);
 }
 
 .bdr-secondary {
