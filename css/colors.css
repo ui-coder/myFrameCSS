@@ -135,23 +135,23 @@
 }
 
 .bdr-all {
-    border: 2px solid;
+    border-style: solid;
 }
 
 .bdr-top {
-    border-top: 2px solid;
+    border-top-style: solid;
 }
 
 .bdr-right {
-    border-right: 2px solid;
+    border-right-style:  solid;
 }
 
 .bdr-bottom {
-    border-bottom: 2px solid;
+    border-bottom-style: solid;
 }
 
 .bdr-left {
-    border-left: 2px solid;
+    border-left-style: solid;
 }
 
 .no-bdr-all {
@@ -183,27 +183,27 @@
 }
 
 .bdr-primary {
-    border: 1px var(--primary);
+    border: 1px var(--bdr-primary);
 }
 
 .bdr-secondary {
-    border-color: var(--default);
+    border-color: 1px var(--bdr-default);
 }
 
 .bdr-success {
-    border-color: var(--success);
+    border-color: 1px var(--bdr-success);
 }
 
 .bdr-info {
-    border-color: var(--info);
+    border-color: 1px var(--bdr-info);
 }
 
 .bdr-warning {
-    border-color: var(--warning);
+    border-color: 1px var(--bdr-warning);
 }
 
 .bdr-danger {
-    border-color: var(--danger);
+    border-color: 1px var(--bdr-danger);
 }
 
 /*
