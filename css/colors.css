@@ -3,6 +3,7 @@
 *   CSS Colores - v1.1                     *
 *   (c)June 10.2019, built by @htmlstrap   *
 *==========================================*/
+
 :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -28,6 +29,7 @@
     --muted: #92999f;
     --link: #3674bb;
 }
+
 
 /*
     Backgrounds
@@ -57,9 +59,11 @@
     background-color: var(--danger);
 }
 
+
 /*    
     Shades of Black
 ===============================*/
+
 .black1 {
     background: var(--black-a10);
 }
@@ -97,12 +101,14 @@
 }
 
 .black10 {
-    background: var(--black-a10);
+    background: var(--black-a100);
 }
+
 
 /*
     Shades of Gray
 ===============================*/
+
 .dark-gray {
     background: var(--gray-darker);
 }
@@ -123,9 +129,11 @@
     background: var(--gray-lighter);
 }
 
+
 /*
     Borders
 ------------------------------------------*/
+
 [class*="bdr-"],
 [class*="no-bdr-"] {
     width: 100px;
@@ -143,7 +151,7 @@
 }
 
 .bdr-right {
-    border-right-width:  2px;
+    border-right-width: 2px;
 }
 
 .bdr-bottom {
@@ -205,6 +213,7 @@
 .bdr-danger {
     border: var(--bdr-danger);
 }
+
 
 /*
     Stripes 
@@ -285,6 +294,7 @@
     background: var(--hvr-default);
 }
 
+
 /*
     Text
 ------------------------------------*/
@@ -312,6 +322,7 @@
 .txt-danger {
     color: var(--txt-danger);
 }
+
 
 /* 
     Alerts 
@@ -386,6 +397,7 @@ button.close {
     color: var(--txt-danger);
 }
 
+
 /* 
     Callouts 
 -------------------------------------------*/
@@ -428,12 +440,13 @@ button.close {
     border-collapse: collapse;
 }
 
+
 /*
     Table
 -------------------------------------------*/
+
 .table {
     border: var(--bdr-secondary);
-
     display: var(--d-tbl);
     text-align: center;
     padding: 0 10px;
@@ -489,6 +502,7 @@ button.close {
 .nobdr {
     border: none !important;
 }
+
 
 /* 
     tRow Color 
